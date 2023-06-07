@@ -1,4 +1,3 @@
-import IncomeImg from '../assets/income.png';
 import OutcomeImg from '../assets/outcome.png';
 import TotalImg from '../assets/total.png';
 import { Container } from './styles';
@@ -10,8 +9,7 @@ export function Summary(){
       <div>
         <header>
           <p>Entradas</p>
-          <img src={OutcomeImg} alt="Outcome" />
-          {/* <img src={IncomeImg} alt="Income" /> */}
+          <img src={OutcomeImg} alt="Income" />
         </header>
         <strong>R$1000,00</strong>
       </div>
