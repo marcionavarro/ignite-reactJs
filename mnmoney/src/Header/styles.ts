@@ -31,10 +31,11 @@ export const Content = styled.div` max-width: 10120px;
     padding: 0 2rem;
     border-radius: 0.25rem;
     height: 3rem;
-    transition: filter 0.2s;
+    transition: filter 0.3s;
 
     &:hover{
       filter: brightness(0.8);
+      border-bottom:1px solid var(--shape);
     }
   }
 
